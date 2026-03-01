@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>JavaScript Class</h2>
+        <p>How to use a JavaScript Class</p>
+        <p id="stud1"></p>
+        <p id="stud1"></p>
+        <script>
+            // creating a class
+            class student {
+                constructer (name,year) {
+                    this.name=name;
+                    this.year=year;
+                }
+                // creating age mod for students
+                age () {
+                    let date=new date();
+                    return date.getFullYear() - this.year;
+                }
+            }
+            // use student class with two objects
+            student=new student ("Aarush",2011)
+        </script>
+    </body>
+</html>
